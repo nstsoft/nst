@@ -1,0 +1,106 @@
+.why_we_header {
+  -webkit-animation: color-change 1s infinite;
+  -moz-animation: color-change 1s infinite;
+  -o-animation: color-change 1s infinite;
+  -ms-animation: color-change 1s infinite;
+  animation: color-change 1s infinite;
+}
+
+@-webkit-keyframes color-change {
+  0% {
+    color: #27404e;
+  }
+  30% {
+    color: #405763;
+  }
+  70% {
+    color: #586c77;
+  }
+  100% {
+    color: #405763;
+  }
+}
+@-moz-keyframes color-change {
+  0% {
+    color: #27404e;
+  }
+  30% {
+    color: #405763;
+  }
+  70% {
+    color: #586c77;
+  }
+  100% {
+    color: #405763;
+  }
+}
+@-ms-keyframes color-change {
+  0% {
+    color: #27404e;
+  }
+  30% {
+    color: #405763;
+  }
+  70% {
+    color: #586c77;
+  }
+  100% {
+    color: #405763;
+  }
+}
+@-o-keyframes color-change {
+  0% {
+    color: #27404e;
+  }
+  30% {
+    color: #405763;
+  }
+  70% {
+    color: #586c77;
+  }
+  100% {
+    color: #405763;
+  }
+}
+@keyframes color-change {
+  0% {
+    color: #27404e;
+  }
+  30% {
+    color: #405763;
+  }
+  70% {
+    color: #586c77;
+  }
+  100% {
+    color: #405763;
+  }
+}
+.WhyWe {
+  .why_we_header {
+    animation: color-change 1s infinite;
+    text-align: center;
+  }
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+    .Space {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 70%;
+      margin-bottom: 20px;
+      font-family: "Noto Sans Tangsa", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      .icon {
+        font-size: 10rem;
+        color: #64ee85;
+      }
+    }
+  }
+}

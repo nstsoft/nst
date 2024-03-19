@@ -1,0 +1,12 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo {
+    display: flex;
+  }
+  img {
+    height: 37px;
+    width: auto;
+  }
+}
