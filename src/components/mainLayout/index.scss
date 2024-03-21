@@ -1,3 +1,4 @@
+@import "../../variables.scss";
 .SubHeader {
   height: calc(100vh - 64px);
   overflow-y: auto;
@@ -27,8 +28,22 @@
   .title {
     width: 50%;
     font-size: 2.5rem;
-    color: white;
+    color: $appColor;
     text-shadow: 0 0 5px black;
+    p {
+      flex-direction: row;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 3rem;
+      .soft {
+        color: white;
+      }
+    }
+    h4 {
+      text-align: center;
+      color: white;
+    }
   }
 
   section {

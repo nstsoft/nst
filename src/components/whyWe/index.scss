@@ -1,3 +1,4 @@
+@import "../../variables.scss";
 .why_we_header {
   -webkit-animation: color-change 1s infinite;
   -moz-animation: color-change 1s infinite;
@@ -99,7 +100,7 @@
       font-style: normal;
       .icon {
         font-size: 10rem;
-        color: #64ee85;
+        color: $appColor;
       }
     }
   }

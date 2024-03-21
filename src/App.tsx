@@ -1,12 +1,12 @@
 import "./App.scss";
-import { Layout as AppLayout, Header } from "./components";
-import { WhyWe } from "./components/whyWe";
+import { AboutUs, Layout as AppLayout, Header, WhyWe } from "./components";
 
 function App() {
   return (
     <>
       <Header />
       <AppLayout>
+        <AboutUs />
         <WhyWe />
       </AppLayout>
     </>
