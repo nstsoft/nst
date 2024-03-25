@@ -18,7 +18,7 @@ export const Layout: React.FC<ChildComponentProps> = ({ children }) => {
             <h1 className="soft">soft</h1>
           </p>
 
-          <h4>Empowering Growth Through Customized Web Solutions" </h4>
+          <h4>Empowering Growth Through Customized Web Solutions </h4>
           {/*We're passionate about crafting digital experiences that leave a lasting
           impression. As a leading web development company, we blend creativity
           with cutting-edge technology to deliver exceptional solutions tailored

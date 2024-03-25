@@ -13,10 +13,15 @@ export const WhyWe = () => {
     <div className="WhyWe" id="#about-us">
       <h1 className="why_we_header">What Sets Us Apart</h1>
       <div className="cards">
-        <CustomSolutions />
-        <Quality />
-        <Communications />
-        <Innovations />
+        <Space className="Space" direction="horizontal" size={16}>
+          <CustomSolutions />
+          <Quality />
+          <Communications />
+        </Space>
+        <Space className="Space" direction="horizontal" size={16}>
+          <Innovations />
+        </Space>
+
         <Space className="Space" direction="horizontal" size={16}></Space>
       </div>
     </div>

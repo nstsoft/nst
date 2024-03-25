@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  padding: 0;
   h1 {
     text-align: center;
   }
@@ -11,10 +12,23 @@
     justify-content: space-around;
     flex-direction: row;
     .content {
-      width: 40%;
+      width: 60%;
+      display: flex;
+      justify-content: center;
+      .text {
+        width: 70%;
+        text-align: right;
+      }
     }
     .aboutUsImage {
-      width: 30%;
+      width: 40%;
+      filter: blur(7px);
+      opacity: 61%;
+      border-radius: 80px 0 0 80px;
+
+      background-image: url("../../../assets/monitor.jpg"); /* Replace 'your-image.jpg' with the path to your image */
+      background-size: cover; /* This will make the image cover the entire container */
+      background-position: center;
     }
   }
 }

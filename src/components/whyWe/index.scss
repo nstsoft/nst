@@ -98,9 +98,25 @@
       font-optical-sizing: auto;
       font-weight: 300;
       font-style: normal;
+      .ant-card-head-title {
+        font-family: $font;
+        font-weight: 300;
+      }
+      .ant-card-body {
+        font-family: $font;
+        font-weight: 100;
+      }
       .icon {
         font-size: 10rem;
         color: $appColor;
+        position: absolute;
+        opacity: 55%;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+      }
+      p {
+        text-align: center;
       }
     }
   }
