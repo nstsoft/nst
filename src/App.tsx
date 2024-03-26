@@ -1,5 +1,11 @@
 import "./App.scss";
-import { AboutUs, Layout as AppLayout, Header, WhyWe } from "./components";
+import {
+  AboutUs,
+  Layout as AppLayout,
+  Header,
+  WhyWe,
+  Services,
+} from "./components";
 
 function App() {
   return (
@@ -8,6 +14,7 @@ function App() {
       <AppLayout>
         <AboutUs />
         <WhyWe />
+        <Services />
       </AppLayout>
     </>
   );

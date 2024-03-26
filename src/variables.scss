@@ -1,7 +1,9 @@
 $appColor: #72e992;
 $font: "Bakbak One", sans-serif;
+$latoFont: "Lato", sans-serif;
 
 :export {
   appColor: $appColor;
   font: $font;
+  latoFont: $latoFont;
 }

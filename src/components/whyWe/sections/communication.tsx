@@ -12,7 +12,7 @@ export const Communications = () => {
       }}
     >
       <div className="icon">
-        <FontAwesomeIcon className="icon" icon={faComment} bounce />
+        <FontAwesomeIcon className="icon" icon={faComment} fade />
       </div>
       <p>
         We believe in open and transparent communication every step of the way.

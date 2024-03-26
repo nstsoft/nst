@@ -15,7 +15,12 @@
 
 body {
   background: rgb(36, 62, 76);
-  font-family: "Bakbak One", sans-serif !important;
+  font-family: "Bakbak One", sans-serif;
   font-weight: 400;
-  font-style: normal !important;
+  font-style: normal;
+}
+
+.SectionHeader {
+  animation: color-change 1s infinite;
+  text-align: center;
 }

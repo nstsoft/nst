@@ -2,7 +2,7 @@ import "./index.scss";
 export function AboutUs() {
   return (
     <div className="AboutUs">
-      <h1 className="about_us_header">About Us</h1>
+      <h1 className="SectionHeader">About Us</h1>
       <div className="aboutUsBody">
         <div className="content">
           <div className="text">

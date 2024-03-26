@@ -13,7 +13,7 @@ export const Quality = () => {
       }}
     >
       <div className="icon">
-        <FontAwesomeIcon className="icon" icon={faMedal} bounce />
+        <FontAwesomeIcon className="icon" icon={faMedal} beat />
       </div>
       <p>
         Quality is at the core of everything we do. Our rigorous testing

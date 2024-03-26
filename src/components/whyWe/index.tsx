@@ -4,14 +4,18 @@ import "./index.scss";
 import {
   Communications,
   CustomSolutions,
+  Details,
+  Excellence,
+  Focus,
   Innovations,
   Quality,
+  Support,
 } from "./sections";
 
 export const WhyWe = () => {
   return (
     <div className="WhyWe" id="#about-us">
-      <h1 className="why_we_header">What Sets Us Apart</h1>
+      <h1 className="SectionHeader">What Sets Us Apart</h1>
       <div className="cards">
         <Space className="Space" direction="horizontal" size={16}>
           <CustomSolutions />
@@ -20,6 +24,12 @@ export const WhyWe = () => {
         </Space>
         <Space className="Space" direction="horizontal" size={16}>
           <Innovations />
+          <Support />
+          <Focus />
+        </Space>
+        <Space className="Space" direction="horizontal" size={16}>
+          <Details />
+          <Excellence />
         </Space>
 
         <Space className="Space" direction="horizontal" size={16}></Space>
