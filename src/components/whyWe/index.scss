@@ -78,6 +78,10 @@
   }
 }
 .WhyWe {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
   .why_we_header {
     animation: color-change 1s infinite;
     text-align: center;
@@ -85,40 +89,30 @@
   .cards {
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-
-    .Space {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      width: 70%;
-      margin-bottom: 20px;
-      font-family: "Noto Sans Tangsa", sans-serif;
-      font-optical-sizing: auto;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    .ant-card-head-title {
+      font-family: $font;
       font-weight: 300;
-      font-style: normal;
-      .ant-card-head-title {
-        font-family: $font;
-        font-weight: 300;
-      }
-      .ant-card-body {
-        font-family: $latoFont;
-        font-weight: 700;
-        font-size: 1rem;
-      }
-      .icon {
-        font-size: 10rem;
-        color: $appColor;
-        position: absolute;
-        opacity: 55%;
-        width: 80%;
-        display: flex;
-        justify-content: center;
-      }
-      p {
-        text-align: center;
-      }
+    }
+    .ant-card-body {
+      font-family: $latoFont;
+      font-weight: 700;
+      font-size: 1rem;
+    }
+    .icon {
+      font-size: 10rem;
+      color: $appColor;
+      position: absolute;
+      opacity: 55%;
+      width: 80%;
+      display: flex;
+      justify-content: center;
+    }
+    p {
+      text-align: center;
     }
   }
 }

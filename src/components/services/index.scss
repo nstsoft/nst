@@ -1,10 +1,39 @@
+@import "../../variables.scss";
+
 .Services {
   .content {
+    display: flex;
+    justify-content: center;
     .OurServices {
       overflow: auto;
       position: relative;
       display: flex;
-      justify-content: space-evenly;
+      justify-content: stretch;
+      .items {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 15px;
+        .item {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: center;
+          margin: 20px 0;
+          .icon {
+            padding-right: 10px;
+            color: $appColor;
+          }
+          p {
+            margin: 0;
+            font-size: 1.7rem;
+          }
+        }
+      }
+      .image {
+        max-height: 650px;
+        overflow: hidden;
+      }
     }
   }
 }

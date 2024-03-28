@@ -1,6 +1,5 @@
 import { Space } from "antd";
 import "./index.scss";
-
 import {
   Communications,
   CustomSolutions,
@@ -11,26 +10,23 @@ import {
   Quality,
   Support,
 } from "./sections";
+import { aboutUsRef } from "react";
 
 export const WhyWe = () => {
   return (
-    <div className="WhyWe" id="#about-us">
+    <div className="WhyWe" id="whyWe">
       <h1 className="SectionHeader">What Sets Us Apart</h1>
       <div className="cards">
-        <Space className="Space" direction="horizontal" size={16}>
-          <CustomSolutions />
-          <Quality />
-          <Communications />
-        </Space>
-        <Space className="Space" direction="horizontal" size={16}>
-          <Innovations />
-          <Support />
-          <Focus />
-        </Space>
-        <Space className="Space" direction="horizontal" size={16}>
-          <Details />
-          <Excellence />
-        </Space>
+        <CustomSolutions />
+        <Quality />
+        <Communications />
+
+        <Innovations />
+        <Support />
+        <Focus />
+
+        <Details />
+        <Excellence />
 
         <Space className="Space" direction="horizontal" size={16}></Space>
       </div>

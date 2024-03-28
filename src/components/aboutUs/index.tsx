@@ -1,7 +1,13 @@
 import "./index.scss";
-export function AboutUs() {
+import React, {
+  useRef,
+  forwardRef,
+  MutableRefObject,
+  ReactElement,
+} from "react";
+export const AboutUs = forwardRef(() => {
   return (
-    <div className="AboutUs">
+    <div className="AboutUs" id="AboutUs">
       <h1 className="SectionHeader">About Us</h1>
       <div className="aboutUsBody">
         <div className="content">
@@ -23,4 +29,4 @@ export function AboutUs() {
       </div>
     </div>
   );
-}
+});
