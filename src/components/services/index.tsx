@@ -3,7 +3,7 @@ import { faCircleCheck } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export function Services() {
   return (
-    <div className="Services" id="services">
+    <div className="Services" id="Services">
       <h1 className="SectionHeader">Our services</h1>
       <div className="content">
         <div className="OurServices">

@@ -3,6 +3,10 @@ import "./index.scss";
 const { Header: AntDHeader } = Layout;
 
 export function Header() {
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    element?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <AntDHeader className="Header">
       <div className="logo">
@@ -10,15 +14,23 @@ export function Header() {
       </div>
       <Menu
         theme="dark"
+        className="Menu"
         mode="horizontal"
-        defaultSelectedKeys={["2"]}
-        style={{ lineHeight: "64px" }}
+        defaultSelectedKeys={["1"]}
+        style={{ lineHeight: "64px", width: "300px" }}
       >
         <Menu.Item key="1">
-          <a href="#about-us">About us</a>
+          <a href="#about-us" onClick={() => scrollToSection("AboutUs")}>
+            About us
+          </a>
         </Menu.Item>
-        <Menu.Item key="2">Testimonials</Menu.Item>
-        <Menu.Item key="3">Contacts</Menu.Item>
+
+        <Menu.Item key="2" onClick={() => scrollToSection("Services")}>
+          Services
+        </Menu.Item>
+        <Menu.Item key="3" onClick={() => scrollToSection("ContactUs")}>
+          Contacts
+        </Menu.Item>
       </Menu>
     </AntDHeader>
   );

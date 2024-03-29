@@ -1,11 +1,6 @@
 import "./index.scss";
-import React, {
-  useRef,
-  forwardRef,
-  MutableRefObject,
-  ReactElement,
-} from "react";
-export const AboutUs = forwardRef(() => {
+
+export const AboutUs = () => {
   return (
     <div className="AboutUs" id="AboutUs">
       <h1 className="SectionHeader">About Us</h1>
@@ -29,4 +24,4 @@ export const AboutUs = forwardRef(() => {
       </div>
     </div>
   );
-});
+};

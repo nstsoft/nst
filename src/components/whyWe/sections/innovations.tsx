@@ -12,7 +12,7 @@ export const Innovations = () => {
       }}
     >
       <div className="icon">
-        <FontAwesomeIcon className="icon" icon={faEarthAmerica} flip />
+        <FontAwesomeIcon className="icon" icon={faEarthAmerica} />
       </div>
       <p>
         In the ever-evolving world of web development, staying ahead of the

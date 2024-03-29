@@ -10,7 +10,6 @@ import {
   Quality,
   Support,
 } from "./sections";
-import { aboutUsRef } from "react";
 
 export const WhyWe = () => {
   return (

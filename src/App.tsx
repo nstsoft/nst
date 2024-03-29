@@ -5,6 +5,7 @@ import {
   Header,
   WhyWe,
   Services,
+  ContactUs,
 } from "./components";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <AboutUs />
         <WhyWe />
         <Services />
+        <ContactUs />
       </AppLayout>
     </>
   );

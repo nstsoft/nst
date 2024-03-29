@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 .Layout {
   overflow: hidden;
   width: 100%;
@@ -14,7 +16,7 @@
 }
 
 body {
-  background: rgb(36, 62, 76);
+  background: $backgroundColor;
   font-family: "Bakbak One", sans-serif;
   font-weight: 400;
   font-style: normal;
