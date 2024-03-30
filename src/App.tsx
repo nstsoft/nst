@@ -4,8 +4,9 @@ import {
   Layout as AppLayout,
   Header,
   WhyWe,
-  Services,
+  Technologies,
   ContactUs,
+  Services,
 } from "./components";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <AboutUs />
         <WhyWe />
         <Services />
+        <Technologies />
         <ContactUs />
       </AppLayout>
     </>

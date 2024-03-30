@@ -1,6 +1,7 @@
 import "./index.scss";
 import { faCircleCheck } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 export function Services() {
   return (
     <div className="Services" id="Services">
