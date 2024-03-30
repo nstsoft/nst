@@ -121,44 +121,50 @@ export function Technologies() {
                   servers, allowing for cost-effective and scalable execution of
                   backend logic.
                 </li>
+                <li>
+                  <p>Amazon SES (Simple Email Service):</p>Send transactional
+                  and marketing emails reliably and at scale to engage with your
+                  users.
+                </li>
+                <li>
+                  <p>Amazon SNS (Simple Notification Service):</p> Send
+                  notifications to users or other services via email, SMS, or
+                  push notifications.
+                </li>
+                <li>
+                  <p>Amazon SQS (Simple Queue Service):</p> Decouple and scale
+                  microservices, distributed systems, and serverless
+                  applications.
+                </li>
+                <li>
+                  <p> Amazon DynamoDB:</p> A fast and flexible NoSQL database
+                  service for all applications that need consistent,
+                  single-digit millisecond latency at any scale.
+                </li>
+                <li>
+                  <p>Amazon Route 53:</p>Scalable DNS web service to route
+                  traffic to your web applications with high availability and
+                  reliability.
+                </li>
+                <li>
+                  <p>IAM (Identity and Access Management):</p>Manage user
+                  identities and permissions securely to control access to your
+                  AWS resources.
+                </li>
+                <li>
+                  <p>Amazon Cognito:</p>Provide authentication, authorization,
+                  and user management for your web applications with ease.
+                </li>
+                <li>
+                  <p> AWS CloudFormation:</p> Automate the deployment and
+                  management of your AWS infrastructure using templates. Amazon
+                  CloudWatch: Monitor your AWS resources and applications in
+                  real-time to ensure operational efficiency and performance
+                  optimization.
+                </li>
               </ul>
             </div>
           </div>
-
-          {/* <div className="items">
-            <div className="item">
-              <FontAwesomeIcon className="icon" icon={faCircleCheck} fade />
-              <p>Web Development</p>
-            </div>
-            <div className="item">
-              <FontAwesomeIcon className="icon" icon={faCircleCheck} fade />
-              <p>Web Hosting and Maintenance</p>
-            </div>
-            <div className="item">
-              <FontAwesomeIcon className="icon" icon={faCircleCheck} fade />
-              <p>Consulting</p>
-            </div>
-            <div className="item">
-              <FontAwesomeIcon className="icon" icon={faCircleCheck} fade />
-              <p>E-commerce Solutions</p>
-            </div>
-            <div className="item">
-              <FontAwesomeIcon className="icon" icon={faCircleCheck} fade />
-              <p>Cross-Platform Mobile App Development with React Native</p>
-            </div>
-            <div className="item">
-              <FontAwesomeIcon className="icon" icon={faCircleCheck} fade />
-              <p>React Native App Testing and Quality Assurance</p>
-            </div>
-            <div className="item">
-              <FontAwesomeIcon className="icon" icon={faCircleCheck} fade />
-              <p> Maintenance and Support for React Native Apps</p>
-            </div>
-            <div className="item">
-              <FontAwesomeIcon className="icon" icon={faCircleCheck} fade />
-              <p>DevOps Strategy and Consulting</p>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>
