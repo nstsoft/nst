@@ -6,8 +6,24 @@ import {
   faFacebookF,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
+import axios from "axios";
 
 export function ContactUs() {
+  const [name, setName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [text, setText] = useState("");
+  const onSubmit = () => {
+    const body = {
+      name,
+      lastName,
+      email,
+      text,
+    };
+
+    axios.post("/email", body);
+  };
   return (
     <div className="ContactUs" id="ContactUs">
       <h4>Contact us</h4>
@@ -29,17 +45,36 @@ export function ContactUs() {
         </div>
         <div className="form">
           <div className="form-item duplex">
-            <Input placeholder="Name" />
-            <Input placeholder="Last Name" />
+            <Input
+              placeholder="Name"
+              value={name}
+              onChange={(ev) => setName(ev.target.value)}
+            />
+            <Input
+              placeholder="Last Name"
+              value={lastName}
+              onChange={(ev) => setLastName(ev.target.value)}
+            />
           </div>
           <div className="form-item">
-            <Input placeholder="Email" />
+            <Input
+              type="email"
+              placeholder="Email"
+              value={email}
+              onChange={(ev) => setEmail(ev.target.value)}
+            />
           </div>
           <div className="form-item text">
-            <Input placeholder="Please tell us a bit  about your goals, what are you hoping  to  achieve with NSTsoft" />
+            <Input
+              value={text}
+              onChange={(ev) => setText(ev.target.value)}
+              placeholder="Please tell us a bit  about your goals, what are you hoping  to  achieve with NSTsoft"
+            />
           </div>
           <div className="form-item ">
-            <Button className="submit">Submit</Button>
+            <Button className="submit" onClick={onSubmit}>
+              Submit
+            </Button>
           </div>
         </div>
       </div>
