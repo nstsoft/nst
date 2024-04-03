@@ -7,8 +7,8 @@ export const Focus = () => {
       <div className="icon">
         <FontAwesomeIcon className="icon" icon={faJetFighter} beatFade />
       </div>
-      <div className="head">Focus on Performance</div>
-      <div className="text">
+      <div className="head common-header">Focus on Performance</div>
+      <div className="text common-text">
         A visually stunning website is only half the battle. We prioritize
         performance optimization, ensuring that our websites not only look great
         but also load quickly, function smoothly, and deliver an exceptional

@@ -7,8 +7,8 @@ export const Excellence = () => {
       <div className="icon">
         <FontAwesomeIcon className="icon" icon={faRankingStar} shake />
       </div>
-      <div className="head">Passion for Excellence</div>
-      <div className="text">
+      <div className="head common-header">Passion for Excellence</div>
+      <div className="text common-text">
         What truly sets us apart is our passion for what we do. We live and
         breathe web development, constantly pushing the boundaries of creativity
         and innovation to deliver solutions that inspire, engage, and empower

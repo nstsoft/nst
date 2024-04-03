@@ -17,7 +17,7 @@
 
 body {
   background: $backgroundColor;
-  font-family: "Bakbak One", sans-serif;
+  font-family: "Proxima-regular", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -25,4 +25,33 @@ body {
 .SectionHeader {
   animation: color-change 1s infinite;
   text-align: center;
+}
+
+.common-header {
+  width: 100%;
+  font-size: 1.5rem;
+  font-family: "Proxima-bold", sans-serif;
+  font-weight: 400;
+}
+
+.common-text {
+  width: 100%;
+  font-size: 1.2rem;
+  font-family: $latoFont;
+  font-weight: 400;
+  font-family: "Proxima-regular", sans-serif;
+}
+
+.proxima-r {
+  font-family: "Proxima-regular";
+  font-weight: 400;
+}
+.proxima-h {
+  font-family: "Proxima-bold";
+  font-weight: 800;
+}
+
+.central-container {
+  width: 70%;
+  max-width: 1080px;
 }

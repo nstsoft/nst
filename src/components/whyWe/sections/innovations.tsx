@@ -7,8 +7,8 @@ export const Innovations = () => {
       <div className="icon">
         <FontAwesomeIcon className="icon" icon={faEarthAmerica} />
       </div>
-      <div className="head">Continuous Innovation</div>
-      <div className="text">
+      <div className="head common-header">Continuous Innovation</div>
+      <div className="text common-text">
         In the ever-evolving world of web development, staying ahead of the
         curve is essential. That's why we're committed to continuous learning
         and innovation, keeping our skills and technologies up-to-date to

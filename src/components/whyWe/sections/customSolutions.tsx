@@ -7,8 +7,8 @@ export const CustomSolutions = () => {
       <div className="icon">
         <FontAwesomeIcon className="icon" icon={faLightbulb} bounce />
       </div>
-      <div className="head">Custom Solutions</div>
-      <div className="text">
+      <div className="head common-header">Custom Solutions</div>
+      <div className="text common-text">
         We understand that one size doesn't fit all. That's why we take a
         personalized approach to every project, ensuring that each solution is
         tailored to meet your specific goals and requirements.

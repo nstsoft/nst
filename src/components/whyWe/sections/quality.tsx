@@ -8,8 +8,8 @@ export const Quality = () => {
       <div className="icon">
         <FontAwesomeIcon className="icon" icon={faMedal} beat />
       </div>
-      <div className="head">Commitment to Quality</div>
-      <div className="text">
+      <div className="head common-header">Commitment to Quality</div>
+      <div className="text common-text">
         Quality is at the core of everything we do. Our rigorous testing
         processes and attention to detail ensure that your project not only
         meets but exceeds your expectations.
