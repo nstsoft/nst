@@ -93,6 +93,35 @@
     align-items: center;
     flex-wrap: wrap;
     max-width: 1000px;
+    .card-item {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      flex: 3;
+      flex-basis: 28%;
+      margin: 10px;
+      min-width: 310px;
+      .head {
+        font-size: 1.5rem;
+        margin: 15px;
+        width: 100%;
+      }
+      .icon {
+        font-size: 10rem;
+        color: $appColor;
+        // position: absolute;
+        opacity: 55%;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+      }
+      .text {
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-family: $latoFont;
+      }
+    }
     .ant-card-head-title {
       font-family: $font;
       font-weight: 300;
@@ -105,12 +134,13 @@
     .icon {
       font-size: 10rem;
       color: $appColor;
-      position: absolute;
+      // position: absolute;
       opacity: 55%;
       width: 80%;
       display: flex;
       justify-content: center;
     }
+
     p {
       text-align: center;
     }
