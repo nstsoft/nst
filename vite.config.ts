@@ -8,6 +8,7 @@ export default defineConfig({
   resolve: {
     alias: {
       $fonts: resolve("./src/fonts"),
+      $assets: resolve("./public/assets"),
     },
   },
 });

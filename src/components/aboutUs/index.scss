@@ -15,9 +15,18 @@
       width: 60%;
       display: flex;
       justify-content: center;
+
       .text {
         width: 70%;
         text-align: right;
+      }
+      @media (max-width: 756px) {
+        width: 100%;
+        .text {
+          width: 90%;
+          text-align: center;
+          font-size: 1.3rem;
+        }
       }
     }
     .aboutUsImage {
@@ -26,9 +35,12 @@
       opacity: 61%;
       border-radius: 80px 0 0 80px;
 
-      background-image: url("../../../public/assets/monitor.jpg");
+      background-image: url("assets/monitor.jpg");
       background-size: cover;
       background-position: center;
+      @media (max-width: 756px) {
+        display: none;
+      }
     }
   }
 }
