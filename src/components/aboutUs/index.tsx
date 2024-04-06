@@ -2,7 +2,7 @@ import "./index.scss";
 
 export const AboutUs = () => {
   return (
-    <div className="AboutUs" id="AboutUs">
+    <section className="AboutUs" id="AboutUs">
       <h1 className="SectionHeader">About Us</h1>
       <div className="aboutUsBody">
         <div className="content">
@@ -19,9 +19,8 @@ export const AboutUs = () => {
         <div className="aboutUsImage">
           <div className="background"></div>
           <div className="blur-overlay"></div>
-          {/* <img src="../../../assets/monitor.jpg" /> */}
         </div>
       </div>
-    </div>
+    </section>
   );
 };

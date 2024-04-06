@@ -5,7 +5,7 @@ export const Support = () => {
   return (
     <div className="card-item">
       <div className="icon">
-        <FontAwesomeIcon className="icon" icon={faPhone} bounce />
+        <FontAwesomeIcon className="icon" icon={faPhone} />
       </div>
       <div className="head common-header">Continuous Support</div>
       <div className="text common-text">

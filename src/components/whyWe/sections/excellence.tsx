@@ -5,7 +5,7 @@ export const Excellence = () => {
   return (
     <div className="card-item">
       <div className="icon">
-        <FontAwesomeIcon className="icon" icon={faRankingStar} shake />
+        <FontAwesomeIcon className="icon" icon={faRankingStar} />
       </div>
       <div className="head common-header">Passion for Excellence</div>
       <div className="text common-text">

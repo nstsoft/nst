@@ -1,5 +1,5 @@
 @import "../../variables.scss";
-.SubHeader {
+.CONTENT {
   height: calc(100vh - 64px);
   overflow-y: auto;
   overflow-x: hidden;
@@ -43,6 +43,8 @@
     h4 {
       text-align: center;
       color: white;
+      font-family: "Proxima-bold";
+      font-weight: 800;
     }
   }
 

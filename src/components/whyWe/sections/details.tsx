@@ -5,7 +5,7 @@ export const Details = () => {
   return (
     <div className="card-item">
       <div className="icon">
-        <FontAwesomeIcon className="icon" icon={faAsterisk} spin />
+        <FontAwesomeIcon className="icon" icon={faAsterisk} />
       </div>
       <div className="head common-header">Attention to Detail</div>
       <div className="text common-text">

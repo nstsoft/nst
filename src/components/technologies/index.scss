@@ -10,7 +10,7 @@
       display: flex;
       justify-content: stretch;
       padding-bottom: 40px;
-      width: 70%;
+      width: 100%;
 
       .items {
         display: flex;
@@ -41,7 +41,7 @@
         justify-content: flex-start;
         flex-direction: column;
         align-items: center;
-        width: 70%;
+        width: 100%;
         padding-top: 20px;
         .amazon {
           padding-top: 50px;

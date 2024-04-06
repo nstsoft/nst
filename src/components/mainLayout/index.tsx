@@ -8,7 +8,7 @@ interface ChildComponentProps {
 
 export const Layout: FC<ChildComponentProps> = ({ children }) => {
   return (
-    <div className="SubHeader">
+    <div className="CONTENT">
       <div className="image-background">
         <img src="./assets/bytes.jpg" className="background" />
 

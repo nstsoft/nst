@@ -13,22 +13,24 @@ import {
 
 export const WhyWe = () => {
   return (
-    <div className="WhyWe" id="whyWe">
-      <h1 className="SectionHeader">What Sets Us Apart</h1>
-      <div className="cards">
-        <CustomSolutions />
-        <Quality />
-        <Communications />
+    <section className="WhyWe" id="whyWe">
+      <div className="central-container">
+        <h1 className="SectionHeader">What Sets Us Apart</h1>
+        <div className="cards">
+          <CustomSolutions />
+          <Quality />
+          <Communications />
 
-        <Innovations />
-        <Support />
-        <Focus />
+          <Innovations />
+          <Support />
+          <Focus />
 
-        <Details />
-        <Excellence />
+          <Details />
+          <Excellence />
 
-        <Space className="Space" direction="horizontal" size={16}></Space>
+          <Space className="Space" direction="horizontal" size={16}></Space>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };

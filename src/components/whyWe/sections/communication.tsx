@@ -5,7 +5,7 @@ export const Communications = () => {
   return (
     <div className="card-item">
       <div className="icon">
-        <FontAwesomeIcon className="icon" icon={faComment} fade />
+        <FontAwesomeIcon className="icon" icon={faComment} />
       </div>
       <div className="head common-header">Transparent Communication</div>
       <div className="text common-text">

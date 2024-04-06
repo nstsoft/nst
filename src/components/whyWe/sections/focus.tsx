@@ -5,7 +5,7 @@ export const Focus = () => {
   return (
     <div className="card-item">
       <div className="icon">
-        <FontAwesomeIcon className="icon" icon={faJetFighter} beatFade />
+        <FontAwesomeIcon className="icon" icon={faJetFighter} />
       </div>
       <div className="head common-header">Focus on Performance</div>
       <div className="text common-text">

@@ -5,7 +5,7 @@ export const CustomSolutions = () => {
   return (
     <div className="card-item">
       <div className="icon">
-        <FontAwesomeIcon className="icon" icon={faLightbulb} bounce />
+        <FontAwesomeIcon className="icon" icon={faLightbulb} />
       </div>
       <div className="head common-header">Custom Solutions</div>
       <div className="text common-text">

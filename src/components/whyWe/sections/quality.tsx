@@ -6,7 +6,7 @@ export const Quality = () => {
   return (
     <div className="card-item">
       <div className="icon">
-        <FontAwesomeIcon className="icon" icon={faMedal} beat />
+        <FontAwesomeIcon className="icon" icon={faMedal} />
       </div>
       <div className="head common-header">Commitment to Quality</div>
       <div className="text common-text">
