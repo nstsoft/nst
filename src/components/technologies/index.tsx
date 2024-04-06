@@ -5,7 +5,7 @@ export function Technologies() {
   return (
     <section className="Technologies" id="Technologies">
       <div className="central-container">
-        <h1 className="SectionHeader">We work with</h1>
+        <h1 className="section-header">We work with</h1>
         <div className="content">
           <div className="OurTechnologies">
             <div className="technologies">

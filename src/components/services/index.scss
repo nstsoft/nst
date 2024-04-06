@@ -28,7 +28,7 @@
           flex-direction: row;
           justify-content: flex-start;
           align-items: center;
-          margin: 20px 0;
+          margin: 15px 0;
 
           .icon {
             padding-right: 10px;
@@ -37,7 +37,7 @@
 
           p {
             margin: 0;
-            font-size: 1.7rem;
+            font-size: 1.4rem;
           }
         }
       }
@@ -46,9 +46,9 @@
         flex: 2;
         overflow: hidden;
         background-size: cover;
-        background-image: url("assets/office-transparent.png");
+        background-image: url("../../assets/office-transparent.png");
       }
-      @media (max-width: 756px) {
+      @media (max-width: 768px) {
         .image {
           display: none;
         }

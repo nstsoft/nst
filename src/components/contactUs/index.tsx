@@ -27,7 +27,6 @@ export function ContactUs() {
   return (
     <section>
       <div className="ContactUs" id="ContactUs">
-        <h4>Contact us</h4>
         <div className="form-container">
           <div className="info">
             <div className="logo">
@@ -39,9 +38,9 @@ export function ContactUs() {
             </div>
             <div className="email">Contact email: info@nstsoft.com</div>
             <div className="social">
-              <FontAwesomeIcon className="icon" icon={faUpwork} fade />
-              <FontAwesomeIcon className="icon" icon={faInstagram} fade />
-              <FontAwesomeIcon className="icon" icon={faFacebookF} fade />
+              <FontAwesomeIcon className="icon" icon={faUpwork} />
+              <FontAwesomeIcon className="icon" icon={faInstagram} />
+              <FontAwesomeIcon className="icon" icon={faFacebookF} />
             </div>
           </div>
           <div className="form">

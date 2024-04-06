@@ -7,6 +7,7 @@
   h1 {
     text-align: center;
   }
+
   .aboutUsBody {
     display: flex;
     justify-content: space-around;
@@ -19,8 +20,12 @@
       .text {
         width: 70%;
         text-align: right;
+        font-size: 2.5vw;
+        @media (min-width: 1024px) {
+          font-size: 25px;
+        }
       }
-      @media (max-width: 756px) {
+      @media (max-width: 768px) {
         width: 100%;
         .text {
           width: 90%;
@@ -35,10 +40,10 @@
       opacity: 61%;
       border-radius: 80px 0 0 80px;
 
-      background-image: url("assets/monitor.jpg");
+      background-image: url("../../assets/monitor.jpg");
       background-size: cover;
       background-position: center;
-      @media (max-width: 756px) {
+      @media (max-width: 768px) {
         display: none;
       }
     }

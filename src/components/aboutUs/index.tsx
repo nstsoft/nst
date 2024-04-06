@@ -3,7 +3,7 @@ import "./index.scss";
 export const AboutUs = () => {
   return (
     <section className="AboutUs" id="AboutUs">
-      <h1 className="SectionHeader">About Us</h1>
+      <h1 className="section-header">About Us</h1>
       <div className="aboutUsBody">
         <div className="content">
           <div className="text">

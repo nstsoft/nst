@@ -6,7 +6,7 @@ export function Services() {
   return (
     <section className="Services" id="Services">
       <div className="central-container">
-        <h1 className="SectionHeader">Our services</h1>
+        <h1 className="section-header">Our services</h1>
         <div className="content">
           <div className="OurServices">
             <div className="image"></div>

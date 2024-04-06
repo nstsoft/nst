@@ -21,7 +21,7 @@ export const Layout: FC<ChildComponentProps> = ({ children }) => {
           <h4>Empowering Growth Through Customized Web Solutions </h4>
         </div>
       </div>
-      <section>{children}</section>
+      <div>{children}</div>
     </div>
   );
 };

@@ -104,6 +104,11 @@
       height: 300px;
       border-left: 2px solid black;
       padding-left: 10px;
+      @media (max-width: 768px) {
+        margin: 10px 25px;
+        font-size: 2.5rem;
+        height: 255px;
+      }
       .head {
         margin: 15px;
         .icon {

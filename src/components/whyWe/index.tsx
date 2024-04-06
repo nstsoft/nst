@@ -15,7 +15,7 @@ export const WhyWe = () => {
   return (
     <section className="WhyWe" id="whyWe">
       <div className="central-container">
-        <h1 className="SectionHeader">What Sets Us Apart</h1>
+        <h1 className="section-header">What Sets Us Apart</h1>
         <div className="cards">
           <CustomSolutions />
           <Quality />
