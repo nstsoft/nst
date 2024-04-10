@@ -1,9 +1,35 @@
 module.exports = {
-  root: true,
-  env: { browser: true, es2020: true, node: true },
-  extends: ["eslint:recommended"],
-  ignorePatterns: ["dist", ".eslintrc.cjs"],
-  parser: "@typescript-eslint/parser",
-  plugins: ["react", "jsx-a11y", "import", "react-hooks"],
-  rules: {},
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
+    'eslint-config-prettier',
+  ],
+  plugins: ['react', 'react-hooks'],
+  parserOptions: {
+    ecmaVersion: 2020,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
+  env: {
+    browser: true,
+    es2020: true,
+    node: true,
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
+    'import/resolver': {
+      node: {
+        paths: ['src'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
+  },
+  rules: {
+    'react/react-in-jsx-scope': 'off',
+  },
 };

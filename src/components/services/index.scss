@@ -46,7 +46,7 @@
         flex: 2;
         overflow: hidden;
         background-size: cover;
-        background-image: url("../../assets/office-transparent.png");
+        background-image: url("assets/office-transparent.png");
       }
       @media (max-width: 768px) {
         .image {
@@ -54,6 +54,7 @@
         }
         .items {
           padding: 0;
+          align-items: center;
           .item {
             margin: 10px;
             font-size: 1.2rem;

@@ -1,0 +1,26 @@
+.Process {
+  .steps {
+    @media (max-width: 768px) {
+      padding: 0 15px;
+    }
+  }
+  .content {
+    padding-top: 25px;
+    @media (max-width: 768px) {
+      padding: 0 15px;
+    }
+    .item {
+      p {
+        margin: 10px 0;
+      }
+
+      ol {
+        li {
+          p {
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}

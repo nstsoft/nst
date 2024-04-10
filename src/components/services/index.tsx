@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export function Services() {
   return (
-    <section className="Services" id="Services">
+    <section className="Services" id="services">
       <div className="central-container">
         <h1 className="section-header">Our services</h1>
         <div className="content">
@@ -41,7 +41,7 @@ export function Services() {
         <div className="cards central-container">
           <div className="card">
             <div className="item face">
-              <img src="../../assets/mak-book.jpg" />
+              <img src="./assets/mak-book.jpg" />
             </div>
             <div className="item back">
               <div className="head common-header">Frontend</div>
@@ -56,7 +56,7 @@ export function Services() {
           </div>
           <div className="card">
             <div className="item face">
-              <img src="../../assets/web.jpg" />
+              <img src="./assets/web.jpg" />
             </div>
             <div className="item back">
               <div className="head common-header">Backend</div>
@@ -71,7 +71,7 @@ export function Services() {
           </div>
           <div className="card">
             <div className="item face">
-              <img src="../../assets/office.jpg" />
+              <img src="./assets/office.jpg" />
             </div>
             <div className="item back">
               <div className="head common-header">Desktop</div>
@@ -86,7 +86,7 @@ export function Services() {
           </div>
           <div className="card">
             <div className="item face">
-              <img src="../../assets/office2.jpg" />
+              <img src="./assets/office2.jpg" />
             </div>
             <div className="item back">
               <div className="head common-header">Mobile</div>
@@ -101,7 +101,7 @@ export function Services() {
           </div>
           <div className="card">
             <div className="item face">
-              <img src="../../assets/servers.jpg" />
+              <img src="./assets/servers.jpg" />
             </div>
             <div className="item back">
               <div className="head common-header">DevOps</div>
@@ -117,7 +117,7 @@ export function Services() {
           </div>
           <div className="card">
             <div className="item face">
-              <img src="../../assets/cloud.jpg" />
+              <img src="./assets/cloud.jpg" />
             </div>
             <div className="item back">
               <div className="head common-header">Cloud Solutions</div>

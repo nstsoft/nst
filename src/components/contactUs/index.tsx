@@ -26,7 +26,7 @@ export function ContactUs() {
   };
   return (
     <section>
-      <div className="ContactUs" id="ContactUs">
+      <div className="ContactUs" id="contact-us">
         <div className="form-container">
           <div className="info">
             <div className="logo">

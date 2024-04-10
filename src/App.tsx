@@ -1,13 +1,5 @@
-import "./App.scss";
-import {
-  AboutUs,
-  Layout as AppLayout,
-  Header,
-  WhyWe,
-  Technologies,
-  ContactUs,
-  Services,
-} from "./components";
+import './App.scss';
+import { AboutUs, Layout as AppLayout, Header, WhyWe, Technologies, ContactUs, Services, Process } from './components';
 
 function App() {
   return (
@@ -18,6 +10,7 @@ function App() {
         <WhyWe />
         <Services />
         <Technologies />
+        <Process />
         <ContactUs />
       </AppLayout>
     </>

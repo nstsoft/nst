@@ -32,10 +32,23 @@ body {
   font-size: 1.5rem;
   font-family: "Proxima-bold", sans-serif;
   font-weight: 400;
-
+  margin: 10px 0;
   @media (max-width: 768px) {
     width: 100%;
   }
+}
+.common-sub-header {
+  width: 100%;
+  font-size: 1.3rem;
+  margin: 10px 0;
+  font-family: "Proxima-bold", sans-serif;
+}
+.bold {
+  font-family: "Proxima-bold", sans-serif;
+  font-weight: 800;
+}
+.center {
+  text-align: center;
 }
 
 .section-header {

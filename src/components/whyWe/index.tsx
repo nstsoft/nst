@@ -13,7 +13,7 @@ import {
 
 export const WhyWe = () => {
   return (
-    <section className="WhyWe" id="whyWe">
+    <section className="WhyWe" id="why-we">
       <div className="central-container">
         <h1 className="section-header">What Sets Us Apart</h1>
         <div className="cards">
