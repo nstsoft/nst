@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+@import '../../variables.scss';
 
 .ContactUs {
   background-color: $backgroundColor;
@@ -79,6 +79,14 @@
           height: 100px;
         }
       }
+    }
+    .reply {
+      display: flex;
+      flex: 2;
+      min-width: 300px;
+      justify-content: flex-start;
+      flex-direction: column;
+      align-items: center;
     }
   }
 }
