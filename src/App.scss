@@ -1,4 +1,4 @@
-@import "./variables.scss";
+@import './variables.scss';
 
 .Layout {
   overflow: hidden;
@@ -17,7 +17,7 @@
 
 body {
   background: $backgroundColor;
-  font-family: "Proxima-regular", sans-serif;
+  font-family: 'Proxima-regular', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -30,7 +30,7 @@ body {
 .common-header {
   width: 100%;
   font-size: 1.5rem;
-  font-family: "Proxima-bold", sans-serif;
+  font-family: 'Proxima-bold', sans-serif;
   font-weight: 400;
   margin: 10px 0;
   @media (max-width: 768px) {
@@ -41,10 +41,10 @@ body {
   width: 100%;
   font-size: 1.3rem;
   margin: 10px 0;
-  font-family: "Proxima-bold", sans-serif;
+  font-family: 'Proxima-bold', sans-serif;
 }
 .bold {
-  font-family: "Proxima-bold", sans-serif;
+  font-family: 'Proxima-bold', sans-serif;
   font-weight: 800;
 }
 .center {
@@ -53,7 +53,7 @@ body {
 
 .section-header {
   font-size: 3rem;
-  font-family: "Proxima-bold", sans-serif;
+  font-family: 'Proxima-bold', sans-serif;
   animation: color-change 1s infinite;
   text-align: center;
   @media (max-width: 768px) {
@@ -66,15 +66,15 @@ body {
   font-size: 1.2rem;
   font-family: $latoFont;
   font-weight: 400;
-  font-family: "Proxima-regular", sans-serif;
+  font-family: 'Proxima-regular', sans-serif;
 }
 
 .proxima-r {
-  font-family: "Proxima-regular";
+  font-family: 'Proxima-regular';
   font-weight: 400;
 }
 .proxima-h {
-  font-family: "Proxima-bold";
+  font-family: 'Proxima-bold';
   font-weight: 800;
 }
 
@@ -92,5 +92,34 @@ section {
   align-self: center;
   @media (max-width: 768px) {
     width: 100%;
+  }
+}
+
+.rotate {
+  top: 0;
+  position: absolute;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
+}
+
+/* rotate 360 key for refresh btn */
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
