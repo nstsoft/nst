@@ -1,5 +1,7 @@
 @import '../../variables.scss';
-
+.contactus-section {
+  padding-bottom: 0;
+}
 .ContactUs {
   background-color: $backgroundColor;
   display: flex;
@@ -8,6 +10,7 @@
   align-items: center;
   width: 100%;
   padding-top: 30px;
+  padding-bottom: 0;
   h4 {
     color: white;
   }
@@ -37,8 +40,15 @@
         font-size: 1rem;
         padding-top: 10px;
       }
-      .social svg {
-        padding: 0 10px;
+
+      .social {
+        a {
+          color: white;
+          cursor: pointer;
+        }
+        svg {
+          padding: 0 10px;
+        }
       }
     }
     .form {

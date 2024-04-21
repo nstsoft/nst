@@ -130,6 +130,7 @@ export function Technologies() {
                 </div>
               </div>
             </div>
+
             <div className="item db">
               <div className="img">
                 <img src="./assets/tech-icons/mongodb-icon-1.svg" />

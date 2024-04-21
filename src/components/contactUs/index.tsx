@@ -59,7 +59,7 @@ export function ContactUs() {
   );
 
   return (
-    <section>
+    <section style={{ paddingBottom: '0' }}>
       <div className="ContactUs" id="contact-us">
         <div className="form-container">
           <div className="info">
@@ -71,9 +71,15 @@ export function ContactUs() {
             </div>
             <div className="email">Contact email: info@nstsoft.com</div>
             <div className="social">
-              <FontAwesomeIcon className="icon" icon={faUpwork} />
-              <FontAwesomeIcon className="icon" icon={faInstagram} />
-              <FontAwesomeIcon className="icon" icon={faFacebookF} />
+              <a>
+                <FontAwesomeIcon className="icon" icon={faUpwork} />
+              </a>
+              <a href="https://www.instagram.com/nst_soft?igsh=bDc0eDloOGFiZGxl&utm_source=qr">
+                <FontAwesomeIcon className="icon" icon={faInstagram} />
+              </a>
+              <a>
+                <FontAwesomeIcon className="icon" icon={faFacebookF} />
+              </a>
             </div>
           </div>
           {showForm ? renderForm() : <div className="reply">Thanks for Your reply</div>}

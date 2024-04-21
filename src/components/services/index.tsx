@@ -1,6 +1,6 @@
 import './index.scss';
-// import { faCircleCheck } from '@fortawesome/free-regular-svg-icons';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheck } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { ServiceSvg } from '../../svg/services';
 
 export function Services() {
@@ -12,6 +12,17 @@ export function Services() {
           <div className="OurServices">
             <div className="image">
               <ServiceSvg />
+            </div>
+            <div className="text common-header">
+              <div className="text-item">
+                <FontAwesomeIcon icon={faCheck} /> Web
+              </div>
+              <div className="text-item">
+                <FontAwesomeIcon icon={faCheck} /> Desktop
+              </div>
+              <div className="text-item">
+                <FontAwesomeIcon icon={faCheck} /> Mobile
+              </div>
             </div>
           </div>
         </div>

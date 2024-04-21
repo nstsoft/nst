@@ -1,11 +1,6 @@
 module.exports = {
-  extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
-    'eslint-config-prettier',
-  ],
-  plugins: ['react', 'react-hooks'],
+  extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:react-hooks/recommended', 'prettier'],
+  plugins: ['react', 'react-hooks', 'prettier'],
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',
@@ -30,6 +25,7 @@ module.exports = {
     },
   },
   rules: {
+    'prettier/prettier': 2,
     'react/react-in-jsx-scope': 'off',
   },
 };

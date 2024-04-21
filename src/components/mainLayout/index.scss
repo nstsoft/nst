@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+@import '../../variables.scss';
 .CONTENT {
   height: calc(100vh - 64px);
   overflow-y: auto;
@@ -60,7 +60,7 @@
     h4 {
       text-align: center;
       color: white;
-      font-family: "Proxima-bold";
+      font-family: 'Proxima-bold';
       font-weight: 800;
       @media (max-height: 800px) {
         font-size: 2rem;
@@ -71,7 +71,7 @@
 
   section {
     font-size: 2rem;
-    padding: 2rem 0 0 0;
+    padding: 2rem 0 2rem 0;
     background: white;
   }
 }

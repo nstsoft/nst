@@ -6,6 +6,9 @@
   flex-direction: column;
   align-items: center;
   background: $appColor;
+  .central-container {
+    width: 100%;
+  }
   h1 {
     color: white;
     animation: none;
@@ -21,7 +24,17 @@
       justify-content: stretch;
       padding-bottom: 40px;
       width: 100%;
-      flex-direction: column;
+      justify-content: center;
+      .text {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color:white;
+        .text-item{
+          margin:10px 0;
+        }
+      }
       .items {
         display: flex;
         flex-direction: column;
@@ -47,10 +60,23 @@
         }
       }
       .image {
-        width: 100%;
+        width: 60%;
       }
 
       @media (max-width: 768px) {
+        .image {
+          display: none;
+        }
+        .text{
+          flex-direction: row;
+          .text-item{
+            display: flex;
+            margin:0 10px;
+            svg{
+              margin-right:10px;
+            }
+          }
+        }
         .items {
           padding: 0;
           align-items: center;
@@ -72,13 +98,13 @@
       flex-basis: 40%;
       flex: 2;
       background: $backgroundColor;
-      min-width: 420px;
+      min-width: 390px;
       min-height: 300px;
       position: relative;
       margin: 20px;
       color: white;
       flex-basis: 40%;
-      max-width: 550px;
+      // max-width: 400px;
       max-width: 530px;
       .item {
         width: 100%;
