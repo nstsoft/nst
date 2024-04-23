@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+@import '../../variables.scss';
 .Header {
   padding: 0;
   .header-menu {
@@ -24,10 +24,10 @@
   .Menu {
     li {
       background: none;
-      font-size: 1.3rem;
+      font-size: 1rem;
     }
     .anticon-menu {
-      font-size: 30px;
+      font-size: 1.2rem;
     }
     .ant-menu-submenu-selected {
       font-size: 20px;

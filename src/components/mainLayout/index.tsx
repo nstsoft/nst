@@ -1,5 +1,5 @@
-import { ReactNode, FC } from "react";
-import "./index.scss";
+import { ReactNode, FC } from 'react';
+import './index.scss';
 
 // Define the type for the children prop
 interface ChildComponentProps {

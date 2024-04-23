@@ -1,20 +1,19 @@
-import "./index.scss";
-import { useState } from "react";
-import { Steps } from "antd";
+import './index.scss';
+import { useState } from 'react';
+import { Steps } from 'antd';
 
-import { stepsFunctions } from "./process.items";
+import { stepsFunctions } from './process.items';
 
 export function Process() {
   const [current, setCurrent] = useState(0);
 
-  const onChange = (value: number) => {
-    console.log("onChange:", value);
-    setCurrent(value);
+  const onChange = (val: number) => {
+    setCurrent(val);
   };
 
   const buildContent = () => {
-    return stepsFunctions[current]()
-  }
+    return stepsFunctions[current]();
+  };
   return (
     <section className="Process" id="process">
       <div className="central-container">
@@ -25,19 +24,16 @@ export function Process() {
             onChange={onChange}
             labelPlacement="vertical"
             items={[
-              { title: "Discovery Phase" },
-              { title: "Creating the Architecture" },
-              { title: "Writing code" },
-              { title: "Testing" },
-              { title: "Deployment" },
-              { title: "Maintenance" },
+              { title: 'Discovery Phase' },
+              { title: 'Creating the Architecture' },
+              { title: 'Writing code' },
+              { title: 'Testing' },
+              { title: 'Deployment' },
+              { title: 'Maintenance' },
             ]}
           />
         </div>
-        <div className="content">
-          {buildContent()}
-
-        </div>
+        <div className="content">{buildContent()}</div>
       </div>
     </section>
   );

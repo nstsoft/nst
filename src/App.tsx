@@ -1,5 +1,15 @@
 import './App.scss';
-import { AboutUs, Layout as AppLayout, Header, WhyWe, Technologies, ContactUs, Services, Process } from './components';
+import {
+  AboutUs,
+  Layout as AppLayout,
+  Header,
+  WhyWe,
+  Technologies,
+  ContactUs,
+  Services,
+  Process,
+  OurWorks,
+} from './components';
 
 function App() {
   return (
@@ -11,6 +21,7 @@ function App() {
         <Services />
         <Technologies />
         <Process />
+        <OurWorks />
         <ContactUs />
       </AppLayout>
     </>
