@@ -7,7 +7,7 @@
       justify-content: space-between;
       flex-direction: row;
       align-items: flex-start;
-      margin: 20px 0;
+      padding: 20px 0;
       &:nth-child(even) {
         flex-direction: row-reverse;
       }
@@ -34,6 +34,9 @@
         position: relative;
         min-height: 50vh;
         width: 100%;
+        @media (max-width: 800px) {
+          min-height: 65vw;
+        }
         .phone {
           display: flex;
           position: absolute;

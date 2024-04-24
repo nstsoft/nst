@@ -1,9 +1,9 @@
-import './index.scss';
-import { Input, Button } from 'antd';
-import { faUpwork, faInstagram, faFacebookF } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faInstagram, faUpwork } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { useState } from 'react';
+import { Button, Input } from 'antd';
 import axios from 'axios';
+import { useState } from 'react';
+import './index.scss';
 
 export function ContactUs() {
   const [name, setName] = useState('');

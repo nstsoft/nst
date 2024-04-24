@@ -2,13 +2,13 @@ import './App.scss';
 import {
   AboutUs,
   Layout as AppLayout,
-  Header,
-  WhyWe,
-  Technologies,
   ContactUs,
-  Services,
-  Process,
+  Header,
   OurWorks,
+  Process,
+  Services,
+  Technologies,
+  WhyWe,
 } from './components';
 
 function App() {

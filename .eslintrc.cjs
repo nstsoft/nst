@@ -33,5 +33,6 @@ module.exports = {
   rules: {
     'prettier/prettier': 2,
     'react/react-in-jsx-scope': 'off',
+    'no-duplicate-imports': 'error',
   },
 };
