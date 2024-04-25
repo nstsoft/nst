@@ -1,4 +1,56 @@
+@import '../../variables.scss';
 .Process {
+  .stepper {
+    @media (max-width: 768px) {
+      margin-bottom: 50px;
+    }
+    .bx-pager {
+      display: flex;
+      align-items: center;
+      height: 34px;
+      border-left: 1px solid $appColor;
+      flex-wrap: wrap;
+      align-items: stretch;
+      .bx-pager-item {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        flex: 0 15%;
+        min-width: 115px;
+        border-top: 1px solid $appColor;
+        border-bottom: 1px solid $appColor;
+        &:hover {
+          cursor: pointer;
+        }
+        .bx-pager-link {
+          text-decoration: none;
+          color: #222;
+          font-size: 13px;
+          flex: 1;
+          padding-left: 16px;
+          text-align: center;
+        }
+        .arrow {
+          border: solid $appColor;
+          display: inline-block;
+          padding: 9px;
+          border-width: 0 1px 1px 0;
+          transform: translateY(15.5px) rotate(-45deg) skew(-15deg, -15deg)
+            translateX(18px);
+          background-color: #fff;
+        }
+        &.active {
+          background-color: $appColor;
+          .bx-pager-link {
+            color: white;
+          }
+          .arrow {
+            background-color: $appColor;
+          }
+        }
+      }
+    }
+  }
   .steps {
     @media (max-width: 768px) {
       padding: 0 15px;

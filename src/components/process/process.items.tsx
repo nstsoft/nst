@@ -274,4 +274,13 @@ const maintenance = () => {
   );
 };
 
-export const stepsFunctions = [discovery, architecture, developing, testing, deployment, maintenance];
+export const stepsFunctions = {
+  'item-1': discovery,
+  'item-2': architecture,
+  'item-3': developing,
+  'item-4': testing,
+  'item-5': deployment,
+  'item-6': maintenance,
+};
+
+// [(discovery, architecture, developing, testing, deployment, maintenance)];

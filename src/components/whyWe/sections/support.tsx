@@ -1,5 +1,5 @@
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const Support = () => {
   return (
@@ -9,10 +9,9 @@ export const Support = () => {
       </div>
       <div className="head common-header">Continuous Support</div>
       <div className="text common-text">
-        Our commitment to our clients doesn't end when the website goes live. We
-        offer ongoing support and maintenance services to ensure that our
-        clients' websites remain secure, up-to-date, and optimized for peak
-        performance long after the launch.
+        Our commitment to our clients doesn't end when the website goes live. We offer ongoing support and maintenance
+        services to ensure that our clients' websites remain secure, up-to-date, and optimized for peak performance long
+        after the launch.
       </div>
     </div>
   );

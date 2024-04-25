@@ -1,5 +1,5 @@
-import { faEarthAmerica } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEarthAmerica } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const Innovations = () => {
   return (
@@ -9,10 +9,9 @@ export const Innovations = () => {
       </div>
       <div className="head common-header">Continuous Innovation</div>
       <div className="text common-text">
-        In the ever-evolving world of web development, staying ahead of the
-        curve is essential. That's why we're committed to continuous learning
-        and innovation, keeping our skills and technologies up-to-date to
-        deliver the best possible solutions.
+        In the ever-evolving world of web development, staying ahead of the curve is essential. That's why we're
+        committed to continuous learning and innovation, keeping our skills and technologies up-to-date to deliver the
+        best possible solutions.
       </div>
     </div>
   );

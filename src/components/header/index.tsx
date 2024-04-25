@@ -1,8 +1,8 @@
 import './index.scss';
-const { Header: AntDHeader } = Layout;
 import { MenuOutlined } from '@ant-design/icons';
-
 import { Row, Col, Layout, Menu } from 'antd';
+
+const { Header: AntDHeader } = Layout;
 
 export function Header() {
   const scrollToSection = (id: string) => {

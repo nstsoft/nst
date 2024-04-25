@@ -3,11 +3,12 @@ type Props = {
   webImageSrc: string;
   header: string;
   text: string;
+  key: string;
 };
 
 export function RenderItem(props: Props) {
   return (
-    <div className="item">
+    <div className="item" key={props.key}>
       <div className="description">
         <div className="common-header">{props.header}</div>
         <div className="common-text">{props.text}</div>

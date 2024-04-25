@@ -1,5 +1,6 @@
 export default [
   {
+    key: 'key-1',
     mobileImageSrc: 'assets/works/choiss-mobile.png',
     webImageSrc: 'assets/works/choiss-web.png',
     header: 'Choiss NYC',
@@ -12,6 +13,7 @@ export default [
           innovation with creativity to deliver results that exceed expectations.`,
   },
   {
+    key: 'key-2',
     mobileImageSrc: 'assets/works/instaswift-mobile.png',
     webImageSrc: 'assets/works/instaswift-web.png',
     header: 'Instaswift',
@@ -30,4 +32,5 @@ export default [
   webImageSrc: string;
   header: string;
   text: string;
+  key: string;
 }[];

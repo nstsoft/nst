@@ -10,18 +10,8 @@ export const WhyWe = () => {
         <h1 className="section-header">What Sets Us Apart</h1>
         <div className="cards">
           {sectionList.map(({ title, text, icon }) => (
-            <SectionCard title={title} text={text} icon={icon} />
+            <SectionCard key={title} title={title} text={text} icon={icon} />
           ))}
-          {/* <Quality />
-          <Communications />
-
-          <Innovations />
-          <Support />
-          <Focus />
-
-          <Details />
-          <Excellence /> */}
-
           <Space className="Space" direction="horizontal" size={16}></Space>
         </div>
       </div>
