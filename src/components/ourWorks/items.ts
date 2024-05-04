@@ -40,6 +40,15 @@ Our mission was to craft delightful mobile experiences for recreational boaters.
        how we blend creativity with technical prowess to deliver 
        impactful solutions that resonate with audiences.`,
   },
+  {
+    key: 'key-4',
+    mobileImageSrc: 'assets/works/consalting-and-knowledge-sharing-mobile.png',
+    webImageSrc: 'assets/works/consalting-and-knowledge-sharing-web.png',
+    header: 'Application for consulting and knowledge sharing',
+    text: `This cross-platform application for online booking and scheduling of appointments, integrated video/audio calls, scheduled face-to-face meetings, automatic online payment and invoicing. Every expert can offer specific services online and include the price and duration of a consultation. 
+
+    `,
+  },
 ] as {
   mobileImageSrc: string;
   webImageSrc: string;
