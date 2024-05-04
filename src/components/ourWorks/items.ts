@@ -14,6 +14,19 @@ export default [
   },
   {
     key: 'key-2',
+    mobileImageSrc: 'assets/works/marine-navigation-mobile.jpg',
+    webImageSrc: 'assets/works/marine-navigation-web.png',
+    header: 'Marine navigation digital chart database',
+    text: `The client was a world-leading provider of marine information solutions ranging
+     from electronic navigational charts to fleet management to vessel and voyage 
+     optimization. The client offered the world’s largest marine navigation digital chart database providing its customers with digital cartography while addressing the complexity of marine operations by providing integrated, intelligent information.
+Our mission was to craft delightful mobile experiences for recreational boaters.
+ We were building the most personal, stress-free, and seamless nautical experiences.
+  Whether customers were occasional sailors, long-distance cruisers, or avid anglers, 
+  our applications helped them plan their trips and kept them, their crew, and their boat safe.`,
+  },
+  {
+    key: 'key-3',
     mobileImageSrc: 'assets/works/instaswift-mobile.png',
     webImageSrc: 'assets/works/instaswift-web.png',
     header: 'Instaswift',
