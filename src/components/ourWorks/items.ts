@@ -46,8 +46,14 @@ Our mission was to craft delightful mobile experiences for recreational boaters.
     webImageSrc: 'assets/works/consalting-and-knowledge-sharing-web.png',
     header: 'Application for consulting and knowledge sharing',
     text: `This cross-platform application for online booking and scheduling of appointments, integrated video/audio calls, scheduled face-to-face meetings, automatic online payment and invoicing. Every expert can offer specific services online and include the price and duration of a consultation. 
-
     `,
+  },
+  {
+    key: 'key-5',
+    mobileImageSrc: 'assets/works/golden-beach-mobile.png',
+    webImageSrc: 'assets/works/golden-beach-web.png',
+    header: 'Golden Beach',
+    text: `Golden Beach is an elegant and inviting landing page designed for an upscale Italian beach restaurant and club. The site captures the essence of the Mediterranean lifestyle, blending the natural beauty of the coastline with the sophisticated ambiance of a high-end dining and social experience.`,
   },
 ] as {
   mobileImageSrc: string;
